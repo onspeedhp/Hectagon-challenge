@@ -4,7 +4,7 @@ import (
     "fmt"
     "net/http"
 
-    "github.com/TutorialEdge/realtime-chat-go-react/pkg/websocket"
+    "github.com/onspeedhp/realtime-chat-go-react/pkg/websocket"
 )
 
 func serveWs(pool *websocket.Pool, w http.ResponseWriter, r *http.Request) {
@@ -33,7 +33,7 @@ func setupRoutes() {
 }
 
 func main() {
-    fmt.Println("Distributed Chat App v0.01")
+    fmt.Println("Chat app realtime")
     setupRoutes()
     http.ListenAndServe(":8080", nil)
 }
