@@ -11,5 +11,5 @@ This directory contains the file 'git basic.doc' containing all the answers in t
 ## Chat app realtime
 
 Requirement:
-* [Go](https://link-url-here.org)
-* [NodeJs](https://link-url-here.org)
+* [Go](https://go.dev/)
+* [NodeJs](https://nodejs.org/en/)
