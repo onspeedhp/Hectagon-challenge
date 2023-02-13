@@ -13,3 +13,15 @@ This directory contains the file 'git basic.doc' containing all the answers in t
 Requirement:
 * [Go](https://go.dev/)
 * [NodeJs](https://nodejs.org/en/)
+
+How to run: 
+
+```
+cd backend
+go run main.go
+```
+
+```
+cd frontend
+npm start
+```
