@@ -10,8 +10,9 @@ This directory contains the file 'git basic.doc' containing all the answers in t
 
 ## Chat app realtime
 
-Flow:
+Diagram:
 
+![alt](images/Diagram.png)
 
 Requirement:
 * [Visual studio code](https://code.visualstudio.com/download)
@@ -34,4 +35,4 @@ npm start
 
 App after being run successfully:
 
-![alt](images/app.png)
+![alt](images/App.png)
