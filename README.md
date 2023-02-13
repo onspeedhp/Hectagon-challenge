@@ -20,12 +20,18 @@ Requirement:
 
 How to run: 
 
-```
+```go
 cd backend
 go run main.go
 ```
 
-```
+```cmd
 cd frontend
 npm start
 ```
+
+> ### *Link app: http://localhost:3000/*
+
+App after being run successfully:
+
+![alt](images/app.png)
