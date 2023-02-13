@@ -35,4 +35,4 @@ npm start
 
 App after being run successfully:
 
-![alt](images/App.png)
+![alt](images/app.png)
