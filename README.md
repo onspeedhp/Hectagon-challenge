@@ -10,7 +10,11 @@ This directory contains the file 'git basic.doc' containing all the answers in t
 
 ## Chat app realtime
 
+Flow:
+
+
 Requirement:
+* [Visual studio code](https://code.visualstudio.com/download)
 * [Go](https://go.dev/)
 * [NodeJs](https://nodejs.org/en/)
 
