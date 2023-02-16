@@ -31,12 +31,15 @@ Set up and run:
 * Step 2: Run MySQL Workbench and create a new user, repository and commit follow this form.
 
     Users:
+    
     ![alt](images/user_database.png)
     
     Repositories:
+    
     ![alt](images/repo.png)
     
     Commits:
+    
     ![alt](images/user_database.png)
 
 * Step 3: Run the app by following the command:
