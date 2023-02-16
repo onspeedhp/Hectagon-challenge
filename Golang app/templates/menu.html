@@ -1,0 +1,45 @@
+{{define "menu.html"}}
+<aside class="menu" style="background-color: whitesmoke ;padding: 10px;">
+    {{if .repository}}
+    <p class="menu-label">
+        <p class="menu-label">
+            {{.repository.Name}}
+        </p>
+        <p class="menu-label">
+            All commit
+        </p>
+        <ul class="menu-list">
+            {{ range $index, $commit := .repository.Commits }}
+            <li><a style="color: black;">Repo {{ $index }}: {{ $commit.Message }}</a></li>
+            {{ end }}
+        </ul>
+        <p class="menu-label">
+            All user commit
+        </p>
+        <ul class="menu-list">
+            {{ range $index, $user := .repository.Users }}
+            <li><a style="color: black;" href="/author/{{$user.Username}}">User {{ $index }}: {{ $user.Name }}</a></li>
+            {{ end }}
+        </ul>
+    {{else}}
+        <p class="menu-label">
+            {{.users.Name}}'s Repository
+        </p>
+        <ul class="menu-list">
+            {{ range $index, $repo := .users.Repos }}
+            <li><a style="color: black;" href="/repository/{{$repo.Name}}">Repo {{ $index }}: {{ $repo.Name }}</a></li>
+            {{ end }}
+        </ul>
+        <p class="menu-label">
+            Recently Commit
+        </p>
+        <ul class="menu-list"></ul>
+            {{ range $index, $commit := .users.Commits }}
+            <li><a style="color: black;">Commit {{ $index }}: {{ $commit.Message }}</a></li>
+            {{ end }}
+        
+        </ul>
+    {{ end }}
+    
+</aside>
+{{end}}
