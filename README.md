@@ -32,8 +32,10 @@ Set up and run:
 
     Users:
     ![alt](images/user_database.png)
+    
     Repositories:
     ![alt](images/repo.png)
+    
     Commits:
     ![alt](images/user_database.png)
 
